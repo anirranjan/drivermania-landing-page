@@ -1,20 +1,12 @@
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.75rem;
 }
 
 body {
+  font-family: 'Raleway', sans-serif;
   color: #444444;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 0.9375rem;
   text-align: center;
   margin: 0;
-}
-
-ul {
-  display: inline-block;
-  text-align: left;
-  font-size: 1.125rem;
 }
 
 /* Website Sections */
@@ -25,7 +17,8 @@ ul {
 
 .intro {
   padding: 7%;
-  background-color: #66CC66;
+  background-color: rgb(2,170,189);
+  background-image: linear-gradient(90deg, rgba(2,170,189,1) 0%, rgba(0,205,172,1) 100%);
   color: white;
 }
 
@@ -42,8 +35,20 @@ ul {
 
 .features {
   padding: 3%;
-  background-color: #66CC66;
+  background-color: rgb(2,170,189);
+  background-image: linear-gradient(90deg, rgba(2,170,189,1) 0%, rgba(0,205,172,1) 100%);
   color: white;
+}
+
+.features ul{
+  display: inline-block;
+  text-align: left;
+}
+
+.features li{
+  font-size: 1.25rem;
+  font-weight: bolder;
+  margin: 10px 0;
 }
 
 .footer {

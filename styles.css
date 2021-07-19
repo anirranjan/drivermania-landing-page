@@ -4,12 +4,44 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
   font-family: 'Raleway', sans-serif;
-  color: #444444;
   text-align: center;
   margin: 0;
+  background-color: #80b176;
+  background-image: linear-gradient(to left bottom, #80b176, #8bb781, #95be8c, #a0c497, #aacba2);
+  color: white;
 }
 
 /* Website Sections */
+.parallax {
+  background-image: url("img/shmenna.png");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxCity{
+  background-image: url("img/city.png");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallaxRolls{
+  background-image: url("img/rolls.png");
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .title {
   margin-top: 0;
   text-shadow: 2px 2px 4px #000000;
@@ -17,9 +49,6 @@ body {
 
 .intro {
   padding: 7%;
-  background-color: rgb(2,170,189);
-  background-image: linear-gradient(90deg, rgba(2,170,189,1) 0%, rgba(0,205,172,1) 100%);
-  color: white;
 }
 
 .about {
@@ -35,9 +64,6 @@ body {
 
 .features {
   padding: 3%;
-  background-color: rgb(2,170,189);
-  background-image: linear-gradient(90deg, rgba(2,170,189,1) 0%, rgba(0,205,172,1) 100%);
-  color: white;
 }
 
 .features ul{
@@ -51,6 +77,22 @@ body {
   margin: 10px 0;
 }
 
+.itch-embed{
+  margin-bottom: 50px;
+}
+
 .footer {
   padding: 1%;
+}
+
+@media only screen and (max-device-width: 1024px){
+  .parallax{
+    background-attachment: scroll;
+  }
+  .parallaxCity{
+    background-attachment: scroll;
+  }
+  .parallaxRolls{
+    background-attachment: scroll;
+  }
 }

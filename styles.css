@@ -17,8 +17,8 @@ body {
 
 .intro {
   padding: 7%;
-  background-color: #80b176;
-  background-image: linear-gradient(to left bottom, #80b176, #8bb781, #95be8c, #a0c497, #aacba2);
+  background-color: #98D4BB;
+  background-image: linear-gradient(to left bottom, #9ad9db, #97d8d4, #96d7cc, #96d6c4, #98d4bb);
   color: white;
 }
 
@@ -35,8 +35,8 @@ body {
 
 .features {
   padding: 3%;
-  background-color: #80b176;
-  background-image: linear-gradient(to left bottom, #80b176, #8bb781, #95be8c, #a0c497, #aacba2);
+  background-color: #98D4BB;
+  background-image: linear-gradient(to left bottom, #9ad9db, #97d8d4, #96d7cc, #96d6c4, #98d4bb);
   color: white;
 }
 

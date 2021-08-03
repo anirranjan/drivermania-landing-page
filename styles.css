@@ -55,6 +55,12 @@ body {
   margin-bottom: 50px;
 }
 
+.web-version{
+  padding: 1%;
+}
+
 .footer {
   padding: 1%;
+  background-color: #444444;
+  color: white;
 }
